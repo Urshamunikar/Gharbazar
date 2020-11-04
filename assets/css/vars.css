@@ -1,0 +1,28 @@
+:root{
+	--primary-color:#3134A1;
+	--accent-color:#20A4f3;
+	--primary-font:"Montserrat",sans-serif;
+	--primary-text-color:#0a0b21;
+	/*--title-font:1.5rem;*/
+	--title-font:3vw;
+	--wrapper-padding: 0 7.5vw;
+	--light-color:white;
+	--padding-val:0 7.5vw;
+	--button-radius:0px;
+	--button-shadow:2px 2px 16px rgba(0,0,0,0.2);
+	--card-radius:0;
+}
+
+@media (max-width:768px){
+	:root{
+		--title-font:3vh;
+	}
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+		:root{
+		--title-font:7vh;
+	}	
+}
